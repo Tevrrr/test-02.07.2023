@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <!-- Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <aside class="sidebar">
+      <nav class="sidebar__navbar">
+        <a href="#" class="sidebar__link">
+          <img src="/home-line.svg" alt="i"> Головна
+        </a>
+        <a href="#" class="sidebar__link active">
+          <img src="/bar-chart-square-02.svg" alt="i"> Сторінка1
+        </a>
+        <a href="#" class="sidebar__link">
+          <img src="/layers-three-01.svg" alt="i"> Сторінка2
+        </a>
+        <a href="#" class="sidebar__link">
+          <img src="/check-done-01.svg" alt="i"> Сторінка3
+        </a>
+      </nav>
+
+      <footer class="sidebar__footer">
+        <a href="#" class="sidebar__link">
+          <img src="/settings-01.svg" alt="i"> Налаштування
+        </a>
+      </footer>
+    </aside>
+
+
+    <div class="container">
+      <header class="header">
+        <h1>Start</h1>
+      </header>
+
+      <main class="main">
+        <div class="progress-bar">
+          <div class="progress-bar__step completed">
+            <div class="progress-bar__lable">
+              <div class="progress-bar__checkbox">
+              </div>
+              Стан1
+            </div>
+          </div>
+          <div class="progress-bar__step active">
+            <div class="progress-bar__lable">
+              <div class="progress-bar__checkbox">
+              </div>
+              Стан2
+            </div>
+
+          </div>
+          <div class="progress-bar__step">
+            <div class="progress-bar__lable">
+              <div class="progress-bar__checkbox">
+              </div>
+              Стан3
+            </div>
+
+          </div>
+          <div class="progress-bar__step">
+            <div class="progress-bar__lable">
+              <div class="progress-bar__checkbox">
+              </div>
+              Стан4
+            </div>
+
+          </div>
+          <div class="progress-bar__step">
+            <div class="progress-bar__lable">
+              <div class="progress-bar__checkbox">
+              </div>
+              Стан5
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="card-block">
+          <div class="card-block__information">
+            <h3>Information</h3>
+            <div class="card-block__infomation-line">
+              <span>Info Number:</span>
+              <span class="card-block__data">903049</span>
+            </div>
+            <div class="card-block__infomation-line">
+              <span>Pick up Place:</span>
+              <span class="card-block__data">Sweden</span>
+            </div>
+          </div>
+
+          <div class="card-block__logo">
+            <div class="card-block__logo-container">
+              <h2>We are here</h2>
+              <p>Long time to go</p>
+            </div>
+            <div class="card-block__image-container">
+              <img src="/truck.png" alt="truck.png">
+            </div>
+          </div>
+        </div>
+
+        <div class="form">
+          <h3>Перезамовте Багаж</h3>
+
+          <div class="form__input-container">
+            <h6>Дропдаун</h6>
+            <div class="custom-dropdown">
+              <input type="checkbox" id="dropdown-toggle1" class="dropdown-toggle">
+              <label for="dropdown-toggle1" class="dropdown-label">
+                Select option
+                <img src="/chevron-down.svg" alt="arrow">
+              </label>
+              <ul class="dropdown-list">
+                <li> 1</li>
+                <li> 2</li>
+                <li> 3</li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="form__input-container">
+            <h6>Дропдаун</h6>
+            <div class="custom-dropdown">
+              <input type="checkbox" id="dropdown-toggle2" class="dropdown-toggle">
+              <label for="dropdown-toggle2" class="dropdown-label">
+                Select option
+                <img src="/chevron-down.svg" alt="arrow">
+              </label>
+              <ul class="dropdown-list">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+              </ul>
+            </div>
+          </div>
+          <div class="grow"></div>
+          <button type="submit" class="form__submit-button">Done</button>
+
+          <!-- <div class="custom-dropdown">
+            <input type="checkbox" id="dropdown-toggle" class="dropdown-toggle">
+            <label for="dropdown-toggle" class="dropdown-label">Выберите значение</label>
+            <ul class="dropdown-list">
+              <li>Значение 1</li>
+              <li>Значение 2</li>
+              <li>Значение 3</li>
+              <li>Значение 4</li>
+            </ul>
+          </div> -->
+
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>
